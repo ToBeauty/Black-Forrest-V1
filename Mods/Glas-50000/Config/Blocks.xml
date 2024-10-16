@@ -1,0 +1,25 @@
+<configs>
+<append xpath="/blocks">
+
+<block name="glassBlockDogo">
+	<property name="CustomIcon" value="glassBusinessBlock"/>
+	<property name="Material" value="Mglass"/>
+	<property name="Shape" value="New"/>
+	<property name="LightOpacity" value="1"/>
+	<property name="Model" value="cube_glass"/>
+	<property name="SortOrder2" value="0050"/> <!-- SortShape -->
+	<property name="Mesh" value="transparent"/>
+	<property name="Texture" value="285"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<property name="DescriptionKey" value="glassGroupDesc"/>
+	<property class="RepairItems"> <property name="resourceBrokenGlass" value="10"/> </property>
+	<property name="MaxDamage" value="50000"/>
+	<drop event="Destroy" name="resourceBrokenGlass" count="1,3"/>
+	<property name="EconomicValue" value="10"/>
+	<property name="FilterTags" value="fdecor,fwindows"/>
+	<property name="SortOrder1" value="7080"/>
+</block>
+
+</append>
+</configs>
+

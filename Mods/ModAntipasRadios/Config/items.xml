@@ -1,0 +1,23 @@
+<configs>
+
+<csv xpath="/items/item[starts-with(@name,'meleeToolRepair')]/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value" op="Add">BatteryMD21</csv>
+
+<append xpath="/items">
+
+<item name="BatteryMD21">
+	<property name="HoldType" value="45"/>
+	<property name="Tags" value="junk"/>
+	<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+	<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+	<property name="Material" value="Morganic"/>
+	<property name="Weight" value="10"/>
+	<property name="Stacknumber" value="500"/> <!-- STK resource -->
+	<property name="EconomicValue" value="20"/>
+	<property name="Group" value="Resources,Chemicals,CFChemicals"/>
+	<property name="SoundPickup" value="battery_lead_grab"/>
+	<property name="SoundPlace" value="battery_lead_place"/>
+</item>
+
+</append>
+
+</configs>
