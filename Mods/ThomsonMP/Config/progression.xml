@@ -1,0 +1,15 @@
+<configs>
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']/display_entry[@item='gunHandgunT3DesertVulture']">
+	<unlock_entry item="ThompsonSMG" unlock_tier="1" tags="ThompsonSMG"/>
+    </append>
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingHandguns']/effect_group">
+	    <passive_effect name="RecipeTagUnlocked" operation="base_set" level="71,100" value="1" tags="ThompsonSMG"/>
+	    <passive_effect name="CraftingTier" operation="base_add" level="80,85,90,95,100" value="1,2,3,4,5" tags="ThompsonSMG"/>
+    </append>
+
+</configs>
+
+
+	
+	
+	

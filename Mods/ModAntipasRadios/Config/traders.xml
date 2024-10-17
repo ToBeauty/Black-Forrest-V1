@@ -1,0 +1,29 @@
+<configs>
+
+<insertBefore xpath="//trader_item_group[@name='constructionSupplies']" >
+		<trader_item_group name="GroupMD21" count="1">
+			<item name="Radio_Welt_G_1BlockVariantHelper" count="3,5"/>
+	</trader_item_group>
+</insertBefore>
+
+<append xpath="//trader_item_group[@name='constructionSupplies']">
+	<item group="GroupMD21" count="2,6"/>
+</append>
+
+<append xpath="/traders/trader_info[@id='1']/trader_items">
+	<item group="GroupMD21" count="1,2"/>
+</append>
+
+<append xpath="/traders/trader_info[@id='2']/trader_items">
+	<item group="GroupMD21" count="1,2"/>
+</append>
+
+<append xpath="/traders/trader_info[@id='7']/trader_items">
+	<item group="GroupMD21" count="1,2"/>
+</append>
+
+<append xpath="/traders/trader_info[@id='8']/trader_items">
+	<item group="GroupMD21" count="1,2"/>
+</append>
+
+</configs>

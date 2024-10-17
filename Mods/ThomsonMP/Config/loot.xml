@@ -1,0 +1,11 @@
+<configs>
+	
+    <append xpath="/lootcontainers/lootgroup[@name='groupWeaponsT3_Gunslinger']">
+		<item name="ThompsonSMG" loot_quality_template="QLTemplateT3"/>
+	</append>
+	
+	<append xpath="/lootcontainers/lootgroup[@name='groupQuestWeaponsRangedT3']" >	
+		<item name="ThompsonSMG" />
+	</append>
+
+</configs>

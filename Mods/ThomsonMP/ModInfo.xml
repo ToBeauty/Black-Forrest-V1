@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="ThomsonSMG" />
+	<DisplayName value="Thompson SMG chambered in .44 mag." />
+	<Description value="Adds a .44 magnum Thompson SMG" />
+	<Author value="ToBeauty" />
+	<Version value="1.0" />
+	<Website value="" />
+	<SkipWithAntiCheat value="true" />
+</xml>
