@@ -1,0 +1,14 @@
+<xml>	
+	<!-- (required) Unique internal name. Allowed chars: 0-9 A-Z a-z _ - -->
+	<Name value="Black_Forrest" />
+	<!-- (required) Name used for display. Duh. -->
+	<DisplayName value="Black_Forrest" />
+	<!-- (required) Nomen omen. Format: x.y.z (https://semver.org/) -->
+	<Version value="1.0.0" />
+	<!-- (optional) Nomen omen. -->
+	<Description value="An overhaul mod for 7 Days to Die" />
+	<!-- (optional) Nomen omen. -->
+	<Author value="Antipas" />
+	<!-- (optional) Nomen omen. -->
+	<Website value="" />
+</xml>
