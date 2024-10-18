@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Servers>
+	<ServerGroup Name="Black Forrest" Logo="https://imgur.com/a/ARIngYT" Description="The old world is gone.">
+		<Server Name="Black Forrest" Logo="https://imgur.com/a/ARIngYT">
+			<Description>
+Afterlife is designed to be an immersive, hardcore, survival overhaul that works with and supports cooperative multiplayer.
+
+Here's a (non-comprehensive) list of some of the mod's features:
+- Full "action skill" system. All attributes and skills are action skills. There are no traditional levels.
+- All perks are new/custom.
+- No time, compass, or map to start with. These items must be acquired.
+- No traders or quests (for now; an alternative is being worked on).
+- Vitality system. A "general well-being" resource that can be managed in many ways.
+- Reworked biomes (forest and desert in particular).
+- Reworked world lighting.
+- Wasteland megacity (make sure you use RWG with the mod running).
+- Several classes and class selection on game start.
+- Custom equipment slots including torch, backpack, watch, map, and compass.
+- 3 new tool/weapon tiers including scrap, bronze, and inconel.
+- Izayo's weapon packs, so lots and lots of guns (fully integrated with progression).
+- UI rework.
+- 6 new "mineables".
+- Forge heat system.
+- Permanent infection (don't worry, it's manageable).
+- Quantity/liquid storage system using glass jars as main item container.
+- Weight + backpack capacity inventory system.
+- "Dye Tub" enabling crafting of 512 different dye colours.
+- "Cartography Table" for sharing map information with allies.
+- "Training Dummy" for when you're too scared to go out at night.
+- Improved rain effects.
+- Some optimisations to try and squeeze a bit more FPS out of the game.
+- Blueprint-based building system.
+- Various QoL hotkeys (can be seen in-game in the vanilla "info panel").
+- And lots of other stuff!
+
+Please see the in-game credits to see what modders and artists made this mod possible.
+			</Description>
+			<Author>redbeardt</Author>
+			<Version>Latest</Version>
+			<Discord>https://discord.gg/2cfHGJQhBR</Discord>
+			<Donate>https://ko-fi.com/redbeardt</Donate>
+			<Downloads>
+				<Download>https://github.com/ToBeauty/Black-Forrest-V1</Download>
+			</Downloads>
+		</Server>
+	</ServerGroup>
+</Servers>
