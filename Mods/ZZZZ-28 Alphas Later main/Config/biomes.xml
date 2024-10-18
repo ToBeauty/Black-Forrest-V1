@@ -1,0 +1,61 @@
+<configs>
+
+	<!-- *** reduce rain in pine forest *** -->
+	<set xpath="//biome[@name='pine_forest']/weather[@name='rain']/Precipitation[@min='30']/@min">25</set>
+	<set xpath="//biome[@name='pine_forest']/weather[@name='rain']/Precipitation[@min='25']/@max">55</set>	
+	
+	<!-- *** add new lavender block to main biome *** -->
+	<append xpath="//biome[@name='pine_forest']/subbiome[@prob='0.31']/decorations">
+	<decoration type="block" blockname="forestFlower" prob=".05" rotatemax="7"/>
+	</append>
+	<append xpath="//biome[@name='pine_forest']/subbiome[@prob='0.392']/decorations">
+	<decoration type="block" blockname="forestFlower" prob=".0015" rotatemax="7"/>
+	</append>
+	<append xpath="//biome[@name='pine_forest']/subbiome[@prob='0.412']/decorations">
+	<decoration type="block" blockname="forestFlower" prob=".0015" rotatemax="7"/>
+	</append>
+	<append xpath="//biome[@name='pine_forest']/decorations">
+	<decoration type="block" blockname="forestFlower" prob=".0015" rotatemax="7"/>
+	</append>
+	
+	<insertafter xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='plantedCotton3Harvest']">
+	<decoration type="block" blockname="plantedCottonDead" prob="0.001" rotatemax="7"/>
+	</insertafter>
+	
+	<set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='plantedGoldenrod3Harvest']/@prob">.003</set>
+	<set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='plantedCotton3Harvest' and @prob='0.07']/@prob">.002</set>
+	<set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='plantedChrysanthemum3Harvest' and @prob='0.07']/@prob">.002</set>	
+	
+	<set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='plantedYucca3Harvest']/@prob">0.001</set>
+	<insertafter xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='plantedYucca3Harvest']">
+	<decoration type="block" blockname="plantedAloeDead" prob=".001" rotatemax="3"/>
+	</insertafter>
+	
+	<set xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='plantedAloe3Harvest']/@prob">0.001</set>
+	<insertafter xpath="/worldgeneration/biomes/biome/subbiome/decorations/decoration[@blockname='plantedYucca3Harvest']">
+	<decoration type="block" blockname="plantedYuccaDead" prob=".001" rotatemax="3"/>
+	</insertafter>
+	
+	<set xpath="/worldgeneration/biomes/biome/decorations/decoration[@blockname='plantedYucca3Harvest']/@prob">0.001</set>
+	<insertafter xpath="//worldgeneration/biomes/biome/decorations/decoration[@blockname='plantedYucca3Harvest']">
+	<decoration type="block" blockname="plantedYuccaDead" prob="0.001" rotatemax="3"/>
+	</insertafter>
+	
+	<set xpath="/worldgeneration/biomes/biome/decorations/decoration[@blockname='plantedAloe3Harvest']/@prob">0.001</set>
+	<insertafter xpath="/worldgeneration/biomes/biome/decorations/decoration[@blockname='plantedAloe3Harvest']">
+	<decoration type="block" blockname="plantedAloeDead" prob="0.001" rotatemax="3"/>
+	</insertafter>
+	
+	<!-- *** beehive stumps *** -->
+	<append xpath="/worldgeneration/biomes/biome[@name='pine_forest']/decorations">
+		<decoration type="block" blockname="beehiveTreeStump" prob=".002" rotatemax="7"/>
+	</append>
+	
+	<!-- *** wasteland boulder decorations *** -->
+	<set xpath="//biome[@name='wasteland']//decorations//decoration[@blockname='resourceRock01']/@blockname">rockWastelandRockResource</set>
+	<set xpath="//biome[@name='wasteland']//decorations//decoration[@blockname='resourceRock02']/@blockname">rockWastelandRockResource02</set>
+	<set xpath="//biome[@name='wasteland']//decorations//decoration[@prob='.00033']/@prob">.001</set>
+	<set xpath="//biome[@name='wasteland']//layers//layer[@blockname='terrDestroyedStone']/@blockname">terrWastelandDestroyedStone</set>
+	<setattribute xpath="//biome[@name='wasteland']" name="topsoil_block">terrWastelandDestroyedStone</setattribute>
+	
+</configs>
